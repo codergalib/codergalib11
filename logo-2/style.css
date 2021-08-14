@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #2d3436;
+}
+img{
+    width: 48%;
+    cursor: pointer;
+    filter: grayscale(0);
+    transition: 1s;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+img:hover{
+    filter: grayscale(100%);
+}
